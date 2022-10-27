@@ -10,6 +10,7 @@ function App() {
       <h1>{t("title")}</h1>
       <h1>{t("text")}</h1>
       <h1>{t("text2")}</h1>
+      <h1>{t("text3")}</h1>
     </div>
   );
 }

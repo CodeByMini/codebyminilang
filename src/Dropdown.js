@@ -32,14 +32,6 @@ export default function Dropdown() {
         >
           {t("languages.en")}
         </div>
-        <div
-          className="language"
-          onClick={() => {
-            changeLanguageHandler("source");
-          }}
-        >
-          {t("languages.sv")}
-        </div>
       </div>
     </div>
   );
