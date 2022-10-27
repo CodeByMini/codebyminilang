@@ -7,6 +7,8 @@ export default function Dropdown() {
   const [currentLang, setLanguage] = useState(i18n.language);
 
   const changeLanguageHandler = (lang) => {
+    console.log(lang);
+    console.log(t("title"));
     setLanguage(lang);
     i18n.changeLanguage(lang);
   };
@@ -29,6 +31,14 @@ export default function Dropdown() {
           }}
         >
           {t("languages.en")}
+        </div>
+        <div
+          className="language"
+          onClick={() => {
+            changeLanguageHandler("source");
+          }}
+        >
+          {t("languages.sv")}
         </div>
       </div>
     </div>
