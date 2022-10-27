@@ -3,5 +3,8 @@
   "languages": {
     "sv": "Svenska",
     "en": "English"
+  },
+  "public": {
+    "snor": "snor"
   }
 }
